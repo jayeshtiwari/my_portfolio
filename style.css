@@ -1,14 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgba(33, 37, 41, 1) !important
 }
 
+.head-text{
+    font-family: "Poppins" !important;
+    color: whitesmoke;
+    font-size: 5rem;
+    opacity: 1.5;
+    font-weight: 600;
+}
+
 a {
-    color: rgb(77, 73, 73);
+    /* color: rgb(77, 73, 73); */
     text-decoration: none;
+    text-decoration-style: none;
 }
 
 a:hover {
-    background-color: transparent;
+    /* background-color: transparent; */
     text-decoration: none;
 }
 
@@ -34,7 +48,6 @@ a:hover {
     max-width: 100%;
     top: 20%;
 }
-
 
 .home .display-1 {
     color: rgb(231, 229, 229);
@@ -66,10 +79,10 @@ a:hover {
     color: gainsboro;
 }
 
-.icons a{
+/* .icons a{
     color:rgb(25,135,84)
-}
-.icons a:hover{
+} */
+/* .icons a:hover{
     color: rgb(94, 39, 224);
-    font-size: 40px; 
-}
+    
+} */
